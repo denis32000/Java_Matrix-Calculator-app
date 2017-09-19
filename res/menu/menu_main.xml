@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.denis32.matrixcalculator.MainActivity">
+    <item
+        android:id="@+id/matrix_2x2"
+        android:orderInCategory="100"
+        android:title="@string/matrix_2x2"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/matrix_3x3"
+        android:orderInCategory="100"
+        android:title="@string/matrix_3x3"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/finish"
+        android:orderInCategory="100"
+        android:title="@string/finish_app"
+        app:showAsAction="never" />
+</menu>
